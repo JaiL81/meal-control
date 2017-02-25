@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Board extends React.Component {
+export default class MealBoard extends React.Component {
 
     render() {
         return (

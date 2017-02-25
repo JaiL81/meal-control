@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Board from './components/Board';
+import MealBoard from './components/MealBoard';
 import data from './data';
 
 class App extends Component {
@@ -13,8 +13,8 @@ class App extends Component {
           <h2>Meal Control</h2>
         </div>
         <div className="App-intro">
-          <Board title="Comidas" meals={data.lunches}/>
-          <Board title="Cenas" meals={data.dinners}/>
+          <MealBoard title="Comidas" meals={data.lunches}/>
+          <MealBoard title="Cenas" meals={data.dinners}/>
         </div>
       </div>
     );
