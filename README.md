@@ -5,6 +5,6 @@ This repository is meant to build a web application to control the meals I take 
 * Redux
 * Webpack 
 * Babel
-* Material design or Bootstrap 4 (not yet decided)
+* Material design, Bootstrap 4, http://www.material-ui.com/ or http://react-toolbox.com/#/ (not yet decided)
 * GraphQL
 * Firebase
